@@ -3,7 +3,7 @@
 from A_defining_strings import your_first_name, your_last_name
 
 # Using string methods
-## We're updating our administrative system, so we need to capitalize your last
+# # We're updating our administrative system, so we need to capitalize your last
 ## name. There's a simple way to do that with a string "method" called .upper()
 print your_last_name.upper()
 cap_last_name = your_last_name.upper()
