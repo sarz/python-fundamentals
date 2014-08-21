@@ -31,19 +31,21 @@ import io
 #        print row
 
 
+from lib_scrape_our_interests import save_web_to_file
+
 #Chaining (parsimony of functions):
-with io.open('', 'r', encoding='utf8') as url_list:
+with io.open('/home/oski/Desktop/python-fundamentals/Scraping/urls', 'r', encoding='utf8') as url_list:
     test_urls = url_list.readlines()
 for curr_url in test_urls:
     curr_url.strip()
     curr_url = curr_url.strip()
-    scraper_library.save_web_to_file(curr_url)
+    # save_web_to_file(curr_url)
+    #Dav# r = requests.get
 
-##########urls = io.open('/home/oski/Desktop/Shared/sf_Programming_Dlab/urls.csv').readlines()
+##########urls = io.open('').readlines()
 
 #***print tree.body.text_content()
 
-from lib_scrape_our_interests import save_web_to_file
 
 
 
